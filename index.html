@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faris Rai Fadhil</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- header design -->
+
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+        <div class='bx bx-menu' id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Faris Rai Fadhil</h1>
+            <p>a recent graduate in Computer Science from Widyatama University. I possess a strong proficiency in
+                programming languages such as Java, PHP, Python, and Go. My knowledge is particularly solid in backend
+                development, covering server deployment, API development, and database management.
+            </p>
+
+            <div class="social-media">
+                <a href="https://www.facebook.com/farisrai/" target="_blank"><i class='bx bxl-facebook'></i></a>
+                <a href="https://linkedin.com/in/farisrai/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/farisraii/" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://wa.me/+6281380721997?text=Halo%20Faris%20Rai" target="_blank"><i
+                        class='bx bxl-whatsapp'></i></a>
+            </div>
+            <a href="doc/ATS_FarisRai.pdf" class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Backend Developer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bxl-html5'></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-palette'></i>
+                    <h3>Graphic Designer</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+            <div class="overlay"></div>
+        </div>
+        <div class="home-img">
+            <img src="images/home.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/about.png" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Hi, I'm Here To Help Your Next Project!</h3>
+            <p>
+                My expertise extends to a diverse range of programming languages, including Java, PHP, Python, and Go. However, my true passion lies in backend development, where I excel in server deployment, API development, and database management. My commitment to honing my technical skills and problem-solving abilities has been a driving force throughout my academic journey. I am enthusiastic about embarking on a career as a backend developer, with a particular focus on server management, performance optimization, and the creation of robust APIs. My dedication to continuous learning ensures that I remain at the forefront of this dynamic field.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- services section -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box-backend">
+                <div class="flipcard-container">
+                    <div class="front-box">
+                        <i class='bx bx-terminal'></i>
+                        <h3>Backend Developer</h3>
+                        <p>Seeking a skilled Backend Developer? Proficient in Java, Python, Golang, PHP, and Laravel, with expertise in Echo and Gin frameworks. Let's build efficient backend solutions together!</p>
+                    </div>
+                    <div class="back-box">
+                        <div class="card php">
+                            <div class="circle">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                                <div class="icon-layer"><img src="icon/php.svg" alt=""></div>
+                            </div>
+                            <div class="text">PHP</div>
+                        </div>
+                        <div class="card java">
+                            <div class="circle">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                                <div class="icon-layer"><img src="icon/java.svg" alt=""></div>
+                            </div>
+                            <div class="text">Java</div>
+                        </div>
+
+                        <div class="card go">
+                            <div class="circle">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                                <div class="icon-layer"><img src="icon/golang.svg" alt=""></div>
+                            </div>
+                            <div class="text">Go</div>
+                        </div>
+
+                        <div class="card python">
+                            <div class="circle">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                                <div class="icon-layer"><img src="icon/python.svg" alt=""></div>
+                            </div>
+                            <div class="text">Python</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="services-box-webdev">
+                <div class="flipcard-container">
+                    <div class="front-box">
+                        <i class='bx bx-code-alt'></i>
+                        <h3>Web Developer</h3>
+                        <p>Looking for a skilled Web Developer? I excel in Vue.js, React.js, HTML, CSS, and JavaScript, capable of turning ideas into engaging websites and apps. Let's create exceptional online experiences together!</p>
+                    </div>
+                    <div class="back-box">
+                        <div class="card css">
+                            <div class="circle">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                                <div class="icon-layer"><img src="icon/css3.svg" alt=""></div>
+                            </div>
+                            <div class="text">CSS</div>
+                        </div>
+                        <div class="card html">
+                            <div class="circle">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                                <div class="icon-layer"><img src="icon/html5.svg" alt=""></div>
+                            </div>
+                            <div class="text">HTML 5</div>
+                        </div>
+
+                        <div class="card react">
+                            <div class="circle">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                                <div class="icon-layer"><img src="icon/react.svg" alt=""></div>
+                            </div>
+                            <div class="text">React JS</div>
+                        </div>
+
+                        <div class="card vue">
+                            <div class="circle">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                                <div class="icon-layer"><img src="icon/vue.svg" alt=""></div>
+                            </div>
+                            <div class="text">Vue JS</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="services-box-gd">
+                <div class="flipcard-container">
+                    <div class="front-box">
+                        <i class='bx bx-palette'></i>
+                        <h3>Graphic Design</h3>
+                        <p>Seeking a Graphic Designer with a versatile skill set? Look no further! I'm proficient in Figma, Adobe Photoshop, Illustrator, and CorelDRAW. I'm ready to turn your ideas into visually stunning designs.</p>
+                    </div>
+                    <div class="back-box">
+                        <div class="card ps">
+                            <div class="circle">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                                <div class="icon-layer"><img src="icon/photshop.svg" alt=""></div>
+                            </div>
+                            <div class="text">Adobe Photshop</div>
+                        </div>
+                        <div class="card ai">
+                            <div class="circle">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                                <div class="icon-layer"><img src="icon/illustrator.svg" alt=""></div>
+                            </div>
+                            <div class="text">Adobe Illustrator</div>
+                        </div>
+
+                        <div class="card corel">
+                            <div class="circle">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                                <div class="icon-layer"><img src="icon/corel.svg" alt=""></div>
+                            </div>
+                            <div class="text">CorelDraw</div>
+                        </div>
+
+                        <div class="card figma">
+                            <div class="circle">
+                                <div class="bar"></div>
+                                <div class="box"><span></span></div>
+                                <div class="icon-layer"><img src="icon/figma.svg" alt=""></div>
+                            </div>
+                            <div class="text">Figma</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/portfolio1.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Backend Developer</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, id assumenda?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio2.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Backend Developer</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, id assumenda?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio3.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Backend Developer</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, id assumenda?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio4.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Backend Developer</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, id assumenda?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio5.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Backend Developer</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, id assumenda?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio6.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Backend Developer</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, id assumenda?</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certification section design -->
+    <section>
+        <div class="certification-container">
+            <h2 class="heading">My <span>Certification</span></h2>
+
+            <div class="certification-wrapper">
+                <div class="certification-box mySwiper">
+                    <div class="certification-content swiper-wrapper">
+                        <div class="certification-slide swiper-slide">
+                            <img src="images/certification1.jpg" alt="">
+                            <h3>Golang Certification</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut iste dolorum reiciendis
+                                aperiam porro veniam dolores fugit neque quo aspernatur, similique magni dolorem, odit
+                                asperiores sunt voluptatibus ullam laboriosam laudantium, officia dolor a optio repellat
+                                sed. Voluptatum corporis voluptatibus quibusdam sequi, ad tenetur, vitae non perferendis
+                                earum nostrum est. Fugiat accusantium ducimus quis incidunt est, architecto inventore.
+                                Soluta, ullam non.</p>
+                        </div>
+                        <div class="certification-slide swiper-slide">
+                            <img src="images/certification2.jpg" alt="">
+                            <h3>TOEFL Certification</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut iste dolorum reiciendis
+                                aperiam porro veniam dolores fugit neque quo aspernatur, similique magni dolorem, odit
+                                asperiores sunt voluptatibus ullam laboriosam laudantium, officia dolor a optio repellat
+                                sed. Voluptatum corporis voluptatibus quibusdam sequi, ad tenetur, vitae non perferendis
+                                earum nostrum est. Fugiat accusantium ducimus quis incidunt est, architecto inventore.
+                                Soluta, ullam non.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section design -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">
+            Contact <span>Me!</span>
+        </h2>
+        <form action="https://formspree.io/f/mpzgljdr" method="POST">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject" name="email">
+            </div>
+            <textarea name="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- Footer design -->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Faris Rai Fadhil | All Right Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bxs-chevron-up'></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
